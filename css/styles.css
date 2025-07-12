@@ -1,0 +1,61 @@
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: -10px -10px;
+}
+.header h1{
+  color:#E5BF4A;
+  text-align: center;
+  font-family: 'Mea Culpa';
+  font-size: 50px;
+}
+.header p{
+    color:#E5BF4A;
+  text-align: left;
+  border: 1px solid #E5BF4A;
+  padding: 20px;
+  font-size: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: -10px -10px;
+    padding: 0;
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: white;
+}
+.hero{
+    position: absolute;
+    top: 170px;
+    left: 0;
+    height: 90%;
+    width: 100%;
+    background-image: url('https://preview.colorlib.com/theme/cakeshop/assets/img/hero/h1_hero1.jpg.webp');
+    background-size: cover;
+    background-position: center;
+}
+.hero h1{
+    color: white;
+    text-align: left;
+    font-family: 'Poiret One';
+    font-size: 70px;  
+    margin-top: 300px;
+    margin-left: 30px;
+}
+.hero p{
+    border: 1px solid #E5BF4A;
+    background-color: #E5BF4A;
+    padding: 20px;
+    width: 100px;
+    margin: 30px;
+}
